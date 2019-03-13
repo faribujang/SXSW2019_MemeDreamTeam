@@ -8,6 +8,6 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 # trends1 = api.trends_place(1)
-trends2 = api.trends_closest(30.267153,-97.7430608)
+trends2 = api.trends_closest(30.267153,-97.7430608) #TBH IDK HOW THIS STUFF WORKS, IT'S QUERYING FROM THE API MODULE IN TWEEPY PACKAGE
 
 print(trends1)
