@@ -3,10 +3,10 @@ import sys
 from tweepy import API #tweepy is the python-twitter api helper thing
 from tweepy import OAuthHandler
 
-# TWITTER_CONSUMER_KEY = "j0zhTcAe9pM4wwtSCJwaVCh89"
-# TWITTER_CONSUMER_SECRET = "ckYkM1dV4CyOhIY408k2keJgJ3BfsNmuwQbMGmzWMk0VzBI0Kk"
-# TWITTER_ACCESS_TOKEN = "825406380161036289-Y1wsMZ1kYzRRrg2SDqUkMe1coDU0NTN"
-# TWITTER_ACCESS_SECRET = "mWChjTWuUwnsO7VsOVxG9XvDrRgDOGReasxj7fY94w9H4"
+# TWITTER_CONSUMER_KEY = "INSERT YOUR OWN"
+# TWITTER_CONSUMER_SECRET = "INSERT YOUR OWN"
+# TWITTER_ACCESS_TOKEN = "INSERT YOUR OWN"
+# TWITTER_ACCESS_SECRET = "INSERT YOUR OWN"
 
 def get_twitter_auth(): #initializing all the stuff
   try:
@@ -14,10 +14,10 @@ def get_twitter_auth(): #initializing all the stuff
     # consumer_secret = os.environ["TWITTER_CONSUMER_SECRET"]
     # access_token = os.environ["TWITTER_ACCESS_TOKEN"]
     # access_secret = os.environ["TWITTER_ACCESS_SECRET"]
-    consumer_key = "j0zhTcAe9pM4wwtSCJwaVCh89"
-    consumer_secret = "ckYkM1dV4CyOhIY408k2keJgJ3BfsNmuwQbMGmzWMk0VzBI0Kk"
-    access_token = "825406380161036289-Y1wsMZ1kYzRRrg2SDqUkMe1coDU0NTN"
-    access_secret = "mWChjTWuUwnsO7VsOVxG9XvDrRgDOGReasxj7fY94w9H4"
+    consumer_key = "INSERT YOUR OWN"
+    consumer_secret = "INSERT YOUR OWN"
+    access_token = "INSERT YOUR OWN"
+    access_secret = "INSERT YOUR OWN"
 
   except KeyError: #if the keys dont return an acceptable value, return error code
     sys.stderr.write("TWITTER_* environment variables not set \n")
